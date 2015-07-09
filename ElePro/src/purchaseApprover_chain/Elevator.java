@@ -16,6 +16,8 @@ public class Elevator {
 		FloorNum = FloorN;
 	}
 
+	
+	System.out.println("");
 
 
 
