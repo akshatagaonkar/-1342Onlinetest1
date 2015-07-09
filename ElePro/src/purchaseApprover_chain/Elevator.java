@@ -10,14 +10,15 @@ public class Elevator {
 		
 	}
 
-
+	
 
 	public void setFloorNum(int FloorN) {
 		FloorNum = FloorN;
+		System.out.println("hello");
 	}
 
 	
-	System.out.println("");
+	
 
 
 
