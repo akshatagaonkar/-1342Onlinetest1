@@ -2,8 +2,8 @@ package voting;
 
 public class Controller implements Register {
 	@Override
-	public void printer_request()
+	public void voting_request()
 	{
-		System.out.println("Printing ...");
+		System.out.println("Registering ...");
 	}
 }

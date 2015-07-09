@@ -3,19 +3,19 @@ package voting;
 public class ProxyController implements Register {
 	Controller p;
 	@Override
-	public void printer_request()
+	public void voting_request()
 	{
 		Boolean permission=false;
 		if(permission == true)
 		{
-			System.out.println("You have permission to print");
+			System.out.println("You have permission to vote");
 			
 			p = new Controller();
-			p.printer_request();
+			p.voting_request();
 		}
 		else
 		{
-			System.out.println("You do not have permission to print");
+			System.out.println("You do not have permission to vote");
 		}
 	}
 }
