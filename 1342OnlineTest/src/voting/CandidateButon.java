@@ -1,6 +1,6 @@
 package voting;
 
-public class CandidateButon {
+public class CandidateButon extends BallotUnit{
 
 	Boolean press=true;
 	

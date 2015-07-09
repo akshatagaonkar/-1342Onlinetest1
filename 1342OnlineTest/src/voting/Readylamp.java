@@ -1,6 +1,6 @@
 package voting;
 
-public class Readylamp extends Lamp{
+public class Readylamp extends BallotUnit{
 
 	String unit = "on";
 	

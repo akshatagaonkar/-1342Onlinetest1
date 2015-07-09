@@ -1,6 +1,6 @@
 package voting;
 
-public class candidatelamp extends Lamp{
+public class candidatelamp extends BallotUnit{
 	String vote = "BJP";
 	
 	
